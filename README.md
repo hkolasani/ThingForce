@@ -4,7 +4,7 @@ Typically Salesforce iOS Apps use Force.com platform as a back end, but there co
 
 In order to call the AWS APIs the iOS app needs to be authenticated with AWS. But in general the Salesforce apps are authenticated with Salesforce using OAuth. So we need AWS to honor the Salesforce authentication and luckily AWS Cognito comes into rescue by supporting OpenID based identity providers and Salesforce does support OpenID. 
 
-This post talks some technical details around using AWS Cognito as an authentication mechanism for the iOS Apps with Salesforce as an identity provider via the OpenID Connect. 
+This sample Xcode project shows how to use AWS Cognito as an authentication mechanism for the iOS Apps with Salesforce as an identity provider via the OpenID Connect. This is a just a proof-of-concept and in no way close to production ready and needs some re-enforcements before using it in real world apps.
 
 # Flow
 - Mobile App user authenticates with Salesforce using OAuth
